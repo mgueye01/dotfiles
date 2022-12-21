@@ -15,9 +15,5 @@ Library
 {{- end }}
 
 
-{{- if not $.kubernetes }}
-.kube
-{{- end }}
-
 LICENSE
 README.md
