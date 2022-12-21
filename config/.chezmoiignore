@@ -14,9 +14,6 @@
 Library
 {{- end }}
 
-{{- if not $.agekey }}
-Library/Application Support/sops
-{{- end }}
 
 {{- if not $.kubernetes }}
 .kube
