@@ -7,7 +7,7 @@
 
 - name: "chezmoi init"
   ansible.builtin.command:
-    cmd: chezmoi init --apply {{ dotfiles.repo }} --branch {{ dotfiles.branch }}
+    cmd: chezmoi init --apply https://github.com/mgueye01/dotfiles --branch main
   args:
     creates: "{{ xdg_data_home }}/chezmoi"
 
