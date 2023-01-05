@@ -23,18 +23,18 @@ packages:
       darwin:
         - 1password
         - bartender
-        - bettertouchtool
+        # - bettertouchtool
         - discord
         - espanso
-        - forklift
+        # - forklift
         # - gpg-suite
         - iterm2
         - keka
         - maccy
-        - microsoft-edge
+        # - microsoft-edge
         - parsify
-        - podman-desktop
-        - raycast
+        # - podman-desktop
+        # - raycast
         - rocket
         - shottr
         - visual-studio-code
@@ -66,7 +66,7 @@ packages:
         - lazygit
         - less
         - lsd
-        - podman
+        # - podman
         - pre-commit
         - prettier
         - shellcheck
@@ -79,7 +79,7 @@ packages:
         - tree
         - vault
         - viddy
-        # - vivid
+        - vivid
         - wget
         - yq
         - ykman
@@ -125,31 +125,31 @@ packages:
         # - aur/visual-studio-code-bin
 
   other_binaries:
-    # - name: talhelper
-    #   type: github_release
-    #   repository: budimanjojo/talhelper
-    #   asset: "talhelper_$os_$arch.tar.gz"
-    #   # renovate: datasource=github-releases depName=budimanjojo/talhelper
-    #   version: v1.5.5
-    #   format: archive
+    - name: talhelper
+      type: github_release
+      repository: budimanjojo/talhelper
+      asset: "talhelper_$os_$arch.tar.gz"
+      # renovate: datasource=github-releases depName=budimanjojo/talhelper
+      version: v1.5.5
+      format: archive
 
-    # - name: gluctl
-    #   type: github_release
-    #   repository: onedr0p/gluctl
-    #   asset: "gluctl-$os-$arch"
-    #   # renovate: datasource=github-releases depName=onedr0p/gluctl
-    #   version: v0.1.0
-    #   format: raw
-    #   source: "gluctl-$os-$arch"
+    - name: gluctl
+      type: github_release
+      repository: onedr0p/gluctl
+      asset: "gluctl-$os-$arch"
+      # renovate: datasource=github-releases depName=onedr0p/gluctl
+      version: v0.1.0
+      format: raw
+      source: "gluctl-$os-$arch"
 
-    # - name: talosctl
-    #   type: github_release
-    #   repository: siderolabs/talos
-    #   asset: "talosctl-$os-$arch"
-    #   # renovate: datasource=github-releases depName=siderolabs/talos
-    #   version: v1.3.0
-    #   format: raw
-    #   source: "talosctl-$os-$arch"
+    - name: talosctl
+      type: github_release
+      repository: siderolabs/talos
+      asset: "talosctl-$os-$arch"
+      # renovate: datasource=github-releases depName=siderolabs/talos
+      version: v1.3.0
+      format: raw
+      source: "talosctl-$os-$arch"
 
     - name: krew
       type: github_release
